@@ -10,4 +10,4 @@ RUN chown -R ${USER} ${HOME} && \
 USER ${USER}
 
 # Pre-exec notebook to improve first-use start time
-#RUN ${HOME}/build/prebuild-kata.sh DJ DeutschJozsaAlgorithmTutorial.ipynb
+RUN ${HOME}/build/prebuild-kata.sh DJ DeutschJozsaAlgorithmTutorial.ipynb
